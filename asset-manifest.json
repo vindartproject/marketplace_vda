@@ -1,7 +1,7 @@
 {
   "main.css": "/marketplace_vda/static/css/main.b3c3cbcc.chunk.css",
-  "main.js": "/marketplace_vda/static/js/main.5ddfdd28.chunk.js",
-  "main.js.map": "/marketplace_vda/static/js/main.5ddfdd28.chunk.js.map",
+  "main.js": "/marketplace_vda/static/js/main.7aa40999.chunk.js",
+  "main.js.map": "/marketplace_vda/static/js/main.7aa40999.chunk.js.map",
   "static/js/1.31088909.chunk.js": "/marketplace_vda/static/js/1.31088909.chunk.js",
   "static/js/1.31088909.chunk.js.map": "/marketplace_vda/static/js/1.31088909.chunk.js.map",
   "static/js/2.26ae1c6a.chunk.js": "/marketplace_vda/static/js/2.26ae1c6a.chunk.js",
@@ -10,6 +10,6 @@
   "runtime~main.js.map": "/marketplace_vda/static/js/runtime~main.9db2aa2a.js.map",
   "static/css/main.b3c3cbcc.chunk.css.map": "/marketplace_vda/static/css/main.b3c3cbcc.chunk.css.map",
   "index.html": "/marketplace_vda/index.html",
-  "precache-manifest.d7410996cc7b6a62a7c7b0b257d0bacc.js": "/marketplace_vda/precache-manifest.d7410996cc7b6a62a7c7b0b257d0bacc.js",
+  "precache-manifest.b5062fe6ac1e16abbaac2634b2ad0ffb.js": "/marketplace_vda/precache-manifest.b5062fe6ac1e16abbaac2634b2ad0ffb.js",
   "service-worker.js": "/marketplace_vda/service-worker.js"
 }
