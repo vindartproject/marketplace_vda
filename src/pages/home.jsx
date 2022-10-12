@@ -46,7 +46,7 @@ class Home extends React.Component{
 
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded shadow mb-3">
         <div class="container">
-           <a class="navbar-brand" href="#">Primary Color</a>
+           <button class="navbar-brand" >Primary Color</button>
            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon"></span>
            </button>
@@ -160,7 +160,7 @@ class Home extends React.Component{
             </div>
          
             <footer class="mt-5 py-4 border-top border-secondary">
-                <p class="mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>, LeadMark Created By <a href="https://www.devcrud.com" target="_blank">DevCrud.</a>  All rights reserved </p>     
+                <p class="mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>, LeadMark Created By <a href="https://www.devcrud.com" target="_blank" rel="noopener noreferrer" >DevCrud.</a>  All rights reserved </p>     
             </footer>
 
         </div>
