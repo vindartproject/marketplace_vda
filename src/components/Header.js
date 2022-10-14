@@ -3,6 +3,7 @@ import {React} from 'react';
 class Header extends React.Component {
     render() {
         return (
+            <main data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
             <header class="header">
 
                 <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
@@ -53,7 +54,7 @@ class Header extends React.Component {
                 </div>
                 <div class="mouse-icon" ><div class="wheel" href="#about"></div></div>
             </header>
-
+            </main>
         )
     }
 }
