@@ -1,6 +1,7 @@
 import React from "react";
 
-class Header extends React.Component {
+class Shop extends React.Component {
+
     render() {
         return (
             <main data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
@@ -195,5 +196,6 @@ class Header extends React.Component {
             </main>
         )
     }
-}
-export default Shop
+};
+
+export default Shop;

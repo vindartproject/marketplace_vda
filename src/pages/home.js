@@ -1,11 +1,9 @@
-import {React} from 'react';
+import React from 'react';
 
 class Home extends React.Component {
     render() {
         return (
-            <div>
-            
-                
+            <div> 
                 <section class="section" id="about">
                     <div class="container">
                         <div class="row justify-content-between">
