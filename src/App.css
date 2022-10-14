@@ -11249,7 +11249,7 @@ textarea.form-control {
 .navbar.custom-navbar.affix {
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;
-  background: url(../imgs/navbar.png);
+  background: url(./imgs/navbar.png);
   border-bottom: 1px solid #949b6f17;
 }
 
@@ -11436,7 +11436,7 @@ textarea.form-control {
   position: relative;
   height: 100vh;
   min-height: 500px;
-  background: url(../public/assets/imgs/header.jpg) no-repeat center center fixed;
+  background: url(./imgs/header.jpg) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
 }
@@ -11637,7 +11637,7 @@ textarea.form-control {
 
 .section.has-img-bg {
   position: relative;
-  background: url(../public/assets/imgs/section.jpg) no-repeat center top fixed;
+  background: url(./imgs/section.jpg) no-repeat center top fixed;
   background-size: cover;
   color: #fff;
 }
