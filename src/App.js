@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Footer from "./components/Footer"
 
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 
 import Shop from "./pages/Shop";
@@ -13,18 +13,16 @@ import About from "./pages/About";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
+    <BrowserRouter>
+      <Routes>
         <Header />
-        <Switch>
-          <Route exact path="/" component={Home}/>
-          <Route  path="/Shop" component={Shop}/>
-          <Route  path="/Blog" component={Blog}/>
-          <Route  path="/About" component={About}/>
-        </Switch>
+          <Route exact path="/" element={<Home/>}/>
+          <Route  path="/Shop" element={<Shop/>}/>
+          <Route  path="/Blog" element={<Blog/>}/>
+          <Route  path="/About" element={<About/>}/>
         <Footer />
-      </Router>
-    </div>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
