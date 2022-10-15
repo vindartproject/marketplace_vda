@@ -18,16 +18,16 @@ class Header extends React.Component {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <NavLink></NavLink>
+                            <NavLink to="/" exact activeClassName="active">Inicio</NavLink>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Tienda.html">Tienda</a>
+                           <NavLink strict to="/About">Acerca de</NavLink>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Blog.html">Blogs</a>
+                            <NavLink strict to="/Shop">Tienda</NavLink>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contacto</a>
+                            <NavLink Strict to="/Blog">Blog</NavLink>
                         </li>
 
                         <div class="nav-item">
@@ -55,7 +55,8 @@ class Header extends React.Component {
                         <path d="m 0,240 h 1500.4828 v -71.92164 c 0,0 -286.2763,-81.79324 -743.19024,-81.79324 C 300.37862,86.28512 0,168.07836 0,168.07836 Z" />
                     </svg>
                 </div>
-                <div class="mouse-icon" ><div class="wheel" href="#about"></div></div>
+                <NavLink class="mouse-icon" strict to="/Home" ><div class="wheel" href="#about"></div>
+                </NavLink>
             </header>
           </main>
         );
